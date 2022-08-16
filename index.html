@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <title>Build a Website Design System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">Color</a>
+        <a href="#font-target">Fonts</a>
+        <a href="#styles">Text Styles</a>
+    </nav>
+    <header>
+        <h1>My Website Style Guide</h1>
+    </header>
+    <main>
+        <div class="color-boxes">
+            <h2>Colors</h2>
+            <div class="main-color-box">
+                <h3>Ocen BLue</h3>
+                <div class="sub-color-box ocean-blue">
+                    <p>Hex: #1D64F2</p>
+                    <p>RGB: rgb(29,100,242)</p>
+                </div>
+                <p>
+                    Ocean Blue is intended to be used with borders or shadows.
+                </p>
+            </div>
+
+            <div class="main-color-box">
+                <h3>Shallow BLue</h3>
+                <div class="sub-color-box shallow-blue">
+                    <p>Hex: #1A80D9</p>
+                    <p>RGB: rgb(26,128,217)</p>
+                </div>
+                <p>
+                    If we are going to create banners or navigation menus, we are going to use this color as the
+                    background.
+                </p>
+            </div>
+
+            <div class="main-color-box">
+                <h3>Sky BLue</h3>
+                <div class="sub-color-box sky-blue">
+                    <p>Hex:#1AB6D9</p>
+                    <p>RGB:rgb(26, 182, 217);</p>
+                </div>
+                <p>
+                    Sky Blue should be used as a background for the body of the pages or it can be used
+                    as background for the active and hover states of links or buttons;
+                </p>
+            </div>
+
+            <div class="main-color-box">
+                <h3>Green Water</h3>
+                <div class="sub-color-box green-water">
+                    <p>Hex:#1AB6D9</p>
+                    <p>RGB:rgb(26, 182, 217);</p>
+                </div>
+                <p>
+                    We are going to use this color for any lynk's active and hover state.
+                </p>
+            </div>
+
+            <div class="main-color-box">
+                <h3>Bad Memories</h3>
+                <div class="sub-color-box bad-memories">
+                    <p>Hex:#F2C12E</p>
+                    <p>RGB:rgb(242, 193, 46);</p>
+                </div>
+                <p>
+                    This color is for titles, subtitles, buttons or links.
+                </p>
+            </div>
+        </div>
+
+        <a id="font-target"></a>
+        <div class="font-boxes">
+            <h2>Fonts</h2>
+            <div class="chacra-petch">
+                <h3>Chacra petch</h3>
+                <p class="style-normal">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+                <p class="weight-bold">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+                <p class="style-italic">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+            </div>
+
+            <div class="michroma">
+                <h3>Michroma</h3>
+                <p class="style-normal">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+                <p class="weight-bold">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+                <p class="style-italic">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+            </div>
+
+
+            <div class="play">
+                <h3>Play</h3>
+                <p class="style-normal">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+                <p class="weight-bold">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+                <p class="style-italic">Omnes homines liberi aequique dignitate atque juribus nascuntur. Ratione
+                    conscientiaque praediti sunt
+                    et alii erga alios cum fraternitate se gerere debent.</p>
+            </div>
+        </div>
+        <a id="styles"></a>
+        <div class="text-styles">
+            <h2>Text Styles</h2>
+            <div class="style-examples">
+                <h1 class="h1-example">Main heading &lt;h1&gt;</h1>
+                <ul class="u-position">
+                    <li>Font weight: bold</li>
+                    <li>Font size: 32px</li>
+                    <li>Font family: font-family: Michroma</li>
+                </ul>
+
+                <h2 class="h2-example">Sub heading &lt;h2&gt;</h2>
+                <ul class="u-position">
+                    <li>Font weight: bolder</li>
+                    <li>Font size: 32px</li>
+                    <li>Font family: font-family: Play</li>
+                </ul>
+
+                <p class="p-example">Paragraph Text &lt;p&gt;</p>
+                <ul class="u-position last">
+                    <li>Font weight: normal</li>
+                    <li>Font size: 14 to 20px</li>
+                    <li class="end">Font family: font-family: Chacra Petch</li>
+                </ul>
+            </div>
+            
+        </div>
+    </main>
+</body>
+
+</html>

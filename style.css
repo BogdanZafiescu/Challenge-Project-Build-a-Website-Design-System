@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Play, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1AB6D9;
+}
+
+
+/*top navigation*/
+nav{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: #1A80D9;
+    box-shadow: 0px 1px 15px #1D64F2;
+    padding: 4px;
+    position: fixed;
+    top: 0;
+}
+
+nav a:link, nav a:visited{
+    width: 200px;
+    height: 52px;
+    display: block;
+    padding: 12px 24px;
+    color: #F2C12E;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: #1AB6D9;
+    text-decoration: 4px underline #ace2d3;
+    color: #6a5415;
+} 
+
+nav a:active{
+    font-size: 22px;
+    text-decoration: 4px underline #50BFA0;
+}
+
+
+/*header */
+
+header{
+    background-color: #1A80D9;
+    margin-top:60px;
+}
+
+h1,h2,h3{
+    color: #F2C12E;
+}
+
+header h1, .h1-example{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Michroma,Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    
+    border-radius: 5px;
+}
+
+.h2-example{
+    border: none;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 16px;
+}
+
+p,li{
+    color: rgb(77, 77, 77);
+}
+
+
+
+ul.u-position{
+    text-align: center;
+}
+
+.main-color-box{
+    margin: 16px 0;
+}
+
+
+.sub-color-box{
+    color:aliceblue;
+    font-weight: 1000;
+    margin:8px 0;
+    padding: 16px;
+    border: 1px solid #1D64F2;
+    border-radius: 5px;
+}
+
+.ocean-blue{
+    background-color: #1D64F2;
+}
+
+.shallow-blue{
+    background-color: #1A80D9;
+}
+
+.sky-blue{
+    background-color: #1AB6D9;
+}
+
+.green-water{
+    background-color: #50BFA0;
+}
+
+.bad-memories{
+    background-color: #F2C12E;
+}
+
+
+
+.font-boxes {
+    margin: 124px 0;
+}
+
+.chacra-petch,.michroma,.play{
+    margin: 16px;
+    padding: 16px;
+}
+
+.chacra-petch p,.michroma p, .play p{
+    font-size: 14px;
+}
+
+.chacra-petch h3,.michroma h3, .play h3{
+    font-size: 28px ;
+}
+
+
+.chacra-petch *{
+    margin: 16px;
+    font-family: "Chakra Petch",Arial, Helvetica, sans-serif;
+}
+
+.michroma *{
+    margin: 16px;
+    font-family: Michroma,Arial, Helvetica, sans-serif;
+}
+
+.play *{
+    margin: 16px;
+    font-family: Play,Arial, Helvetica, sans-serif;
+}
+
+.style-normal{
+    font-style: normal;
+}
+
+.style-italic{
+    font-style: italic;
+}
+
+.weight-bold{
+    font-weight: bold;
+}
+
+.text-styles{
+    margin: 128px 0;
+}
+
+h1.h1-example,h2.h2-example{
+    margin: 64px 0;
+}
+
+p.p-example{
+    margin: 64px 0;
+    font-size: 20px;
+    color: #F2C12E;
+    text-align: center;
+}
+
+
+.last{
+    margin-bottom: 128px;
+}
+
+/* Color Theme Swatches in Hex */
+.color-theme_colorful-gradient-landing-page_52683-9586-1-hex {
+    color: #1D64F2;
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-2-hex {
+    color: #1A80D9;
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-3-hex {
+    color: #1AB6D9;
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-4-hex {
+    color: #50BFA0;
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-5-hex {
+    color: #F2C12E;
+}
+
+/* Color Theme Swatches in RGBA */
+.color-theme_colorful-gradient-landing-page_52683-9586-1-rgba {
+    color: rgba(29, 100, 242, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-2-rgba {
+    color: rgba(26, 128, 217, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-3-rgba {
+    color: rgba(26, 182, 217, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-4-rgba {
+    color: rgba(80, 191, 160, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-5-rgba {
+    color: rgba(242, 193, 46, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.color-theme_colorful-gradient-landing-page_52683-9586-1-hsla {
+    color: hsla(219, 89, 53, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-2-hsla {
+    color: hsla(207, 78, 47, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-3-hsla {
+    color: hsla(190, 78, 47, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-4-hsla {
+    color: hsla(163, 46, 53, 1);
+}
+
+.color-theme_colorful-gradient-landing-page_52683-9586-5-hsla {
+    color: hsla(45, 88, 56, 1);
+}
