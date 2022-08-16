@@ -88,7 +88,9 @@ p,li{
     color: rgb(77, 77, 77);
 }
 
-
+li{
+    list-style: none;   
+}
 
 ul.u-position{
     text-align: center;
