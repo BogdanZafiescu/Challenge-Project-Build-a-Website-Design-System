@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+
+    background-image: url("abstract.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-image: url("abstract.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+header {
+    background-color: #3F4E4Fdd;
+    min-height: 12vh;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+main {
+    background-color: #3F4E4Fdd;
+    min-height: 88vh;
+    padding-bottom: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    margin: 1rem;
+}
+
+p,
+h3,
+h2 {
+    font-family: "Secular One";
+}
+
+h4 {
+    color: #DCD7C9;
+}
+
+
+
+header,
+main {
+    margin-left: 16rem;
+}
+
+header,
+main .subtittle {
+    text-align: center;
+}
+
+header {
+    margin-left: 16rem;
+}
+
+header h1 {
+    font-family: "Yanone Kaffeesatz";
+    color: #DCD7C9;
+    font-size: 4rem;
+}
+
+nav {
+    width: 16rem;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: #DCD7C9;
+}
+
+nav h2 {
+    text-align: center;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 2rem;
+    color: #A27B5C;
+}
+
+nav a {
+    font-family: "Fjalla One";
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    margin: 1rem auto;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0.313rem;
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #5a6e74;
+}
+
+.subtittle {
+    font-size: 2rem;
+    color: #A27B5C;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic-underlined {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.content{
+    text-align: center;
+    font-size: 0;
+}
+
+.sub-content {
+    width: 448px;
+    min-height: 448px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.secular h3,
+.yanone h3,
+.fjalla h3 {
+    font-size: 1.75rem;
+}
+
+.secular h4,
+.yanone h4,
+.fjalla h4 {
+    font-size: 1.50rem;
+}
+
+.secular p,
+.yanone p,
+.fjalla p {
+    font-size: 1.50rem;
+}
+
+.sub-content.fjalla .container p {
+    font-family: "Fjalla One";
+}
+
+.sub-content.yanone .container p {
+    font-family: "Yanone Kaffeesatz";
+}
+
+.sub-content.secular .container p {
+    font-family: "Secular One";
+}
+
+
+@media only screen and (max-width: 1151px) {
+    .sub-content.yanone{
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    header,
+    main {
+        margin-left: 0;
+    }
+
+    nav {
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        position: static;
+        width: 100%;
+        
+    }
+
+    main {
+        border-top: 1px solid transparent;
+    }
+
+    .sub-content.yanone{
+        margin-top: 4rem;
+    }
+
+
+}
+.colors {
+    color: #2C3639;
+    color: #3F4E4F;
+    color: #A27B5C;
+    color: #DCD7C9;
+}

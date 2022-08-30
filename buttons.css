@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+
+    background-image: url("abstract.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-image: url("abstract.jpg");
+}
+
+
+
+header {
+    background-color: #3F4E4Fdd;
+    min-height: 12vh;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+main {
+    background-color: #3F4E4Fdd;
+    min-height: 88vh;
+    padding-bottom: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    margin: 1rem;
+}
+
+p,
+h3,
+h2 {
+    font-family: "Secular One";
+}
+
+
+
+header,
+main {
+    margin-left: 16rem;
+}
+
+header,
+main .subtittle {
+    text-align: center;
+}
+
+header {
+    margin-left: 16rem;
+}
+
+header h1 {
+    font-family: "Yanone Kaffeesatz";
+    color: #DCD7C9;
+    font-size: 4rem;
+}
+
+nav {
+    width: 16rem;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: #DCD7C9;
+}
+
+nav h2 {
+    text-align: center;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 2rem;
+    color: #A27B5C;
+}
+
+nav a {
+    font-family: "Fjalla One";
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    margin: 1rem auto;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0.313rem;
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #5a6e74;
+}
+
+.subtittle {
+    font-size: 2rem;
+    color: #A27B5C;
+}
+
+ul {
+    width: 256px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    width: 256px;
+    font-size: 48px;
+    border: 3px solid #A27B5C;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.buttons-info {
+    text-align: center;
+}
+
+p,
+li {
+    font-family: "Secular One";
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.sub-content {
+    width: 300px;
+    min-width: 352px;
+    margin: 0 auto;
+}
+
+
+button {
+    box-shadow: 5px 5px 5px black;
+    display: block;
+    margin: 0 auto;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+
+.send-bt {
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+.send-bt:hover {
+    background-color: #DCD7C9;
+    color: #2C3639;
+}
+
+.confirm-bt {
+    background-color: #31cc4d;
+    color: #2C3639;
+}
+
+.confirm-bt:hover {
+    background-color: #2C3639;
+    color: #31cc4d;
+}
+
+
+.cancel-bt {
+    background-color: #821b1b;
+    color: #DCD7C9;
+}
+
+.cancel-bt:hover {
+    background-color: #DCD7C9;
+    color: #821b1b;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    header,
+    main {
+        margin-left: 0;
+    }
+
+    nav {
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        position: static;
+        width: 100%;
+    }
+
+    main {
+        border-top: 1px solid transparent;
+        padding-bottom: 352px;
+    }
+
+    button{
+        font-size: 1.5rem;
+        width: 128px;
+    }
+
+}
+
+
+.colors {
+    color: #2C3639;
+    color: #3F4E4F;
+    color: #A27B5C;
+    color: #DCD7C9;
+}
+
+.other-cl {
+    color: #31cc4d;
+    color: #821b1b;
+    color: #e1d873;
+}
